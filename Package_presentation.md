@@ -31,7 +31,7 @@ Elisabeth Dahlqwist
 ========================================================
 Cool things about me...
 
-- neato item one
+- Biostatistician
 - neato thing two
 
 Nissa Ferm 
@@ -40,7 +40,7 @@ incremental: true
 
 
 
-![alt text](Package_presentation_files/Eating_krill.JPG)
+![nissa](Package_presentation_files/Eating_krill.JPG)
 ***
 - Recent transplant to Stockholm.
 - Government fishereies researcher turned data scientist .
@@ -70,11 +70,20 @@ As of this year
 So many packages, why make more?
 ========================================================
 incremental: true 
+left:40%
 
-- The package doesn't have to be on CRAN
-- It can be specific to your use case or general
-- Easily sharable, method development
-- Encapsulates a project, all files in one place
+![pile_of_boxes](Package_presentation_files/pile_of_boxes.jpg)
+
+***
+- A 📦 can be just for you  
+
+- A 📦 can be specific to your use case  
+
+- 📦's are easily sharable 
+
+- 📦's are great for method development, easy documentation  
+
+- 📦's encapsulate a project, all files in one place!
 
 
 Elisabeth why I built a package
@@ -83,15 +92,41 @@ Elisabeth why I built a package
 - share new stats methods
 
 
-Nissa why I built a package
+Why I built a package
 ========================================================
+incremental: true 
+left:16%
 
-- smooth data management for oceanographic data
+![fastrcatdata](Package_presentation_files/fastrcatdata.png)
 
+***
+- Data was trapped in a particular type of oceanographic file
+
+
+- Thousands of these files were created each field season 
+
+
+- Past methods ment data wasn't available for more than a year  
+
+
+- I wanted to use the data while still out on the research cruise 🚢 📈!
+
+So I built FastrCAT
+========================================================
+incremental: true 
+left:50%
+
+![fastrcatdata](Package_presentation_files/hex_sticker_color.png)
+
+***
+- Streamlines data aquisition
+- Don't have to wait a year or more!
+- Has functions to produce maps, plots and reports
+- Was used succesfully this past field season 
 
 First Steps: Picking a Style -E
 ========================================================
-![ab fab](https://images.app.goo.gl/W1jmwRMGVPXT1eFZA)
+![abfab](Package_presentation_files/abfab.webp)
 
 ***
 - human readable code , pretty
@@ -149,9 +184,12 @@ Nissa Example One
 - how error writing is documentation too
 - writting errors to help your users
 
+
 Careful with your dependencies
 =======================================================
-![image of long depency load]()
+
+![somanypackages](Package_presentation_files/somanypackages.jpg)
+
 ***
 - some overview of dependencies
 
@@ -205,34 +243,3 @@ Last Slide
 ========================================================
 - live package build in Rstudio
 
-First Slide
-========================================================
-
-For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
-
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-Slide With Code
-========================================================
-
-
-```r
-summary(cars)
-```
-
-```
-     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
-```
-
-Slide With Plot
-========================================================
-
-![plot of chunk unnamed-chunk-7](Package_presentation-figure/unnamed-chunk-7-1.png)
