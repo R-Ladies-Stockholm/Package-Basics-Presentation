@@ -63,7 +63,7 @@ incremental: true
 ***
 
 - Recent transplant to Stockholm.
-- Government fishereies researcher turned data scientist.
+- Government fisheries researcher turned data scientist.
 - Built R-packages FastrCAT, rrza, and fishgutr.
 - Made my first PR during Tidyverse Dev Day on the dplyr package 🎉.
 - I also love crafting and sea critters 😍!
@@ -109,7 +109,7 @@ left:40%
 - A 📦 can be specific to your use case
 <br>
 <br>
-- 📦's are easily sharable
+- 📦's are easily shareable
 <br>
 <br>
 - 📦's are great for method development, easy documentation
@@ -149,7 +149,7 @@ left:16%
 - Thousands of these files were created each field season
 <br>
 <br>
-- Past methods ment data wasn't available for more than a year
+- Past methods meant data wasn't available for more than a year
 <br>
 <br>
 - I wanted to use the data while still out on the research cruise 🚢 📈!
@@ -164,12 +164,12 @@ left:50%
 ***
 FastrCAT...
 
-- streamlined the data aquisition
+- streamlined the data acquisition
 - did not have to wait a year or more
 - has functions to produce maps, plots and reports
-- the package was used succesfully this past field season!
+- the package was used successfully this past field season!
 
-Todays Journey
+Today's Journey
 ========================================================
 left:50%
 
@@ -275,10 +275,10 @@ We all love to write documentation 😐![](https://media.giphy.com/media/NKeVGRQ
 
 ***
 - R package development methods force you to document
-- You can taylor documentation realtive to your audience
+- You can tailor documentation relative to your audience
 - Documentation comes at many levels
   + variable
-  + funtion
+  + function
   + package
   + vignette / walk through example
 
@@ -289,7 +289,7 @@ incremental: true
 
 - *Do not confuse!* To as large extent as possible, use the same argument
 names as some package you build your package upon, or are familiar with.  
-- Give reproducable examples for different functionalities of your function
+- Give reproducible examples for different functionalities of your function
 and write down definitions.
 - Complement with describing your method in a journal article or a vignette.
 
@@ -311,7 +311,7 @@ left:50%
 - use the appropriate level of language
 - and be positive! 
 
-How the error occured
+How the error occurred
 ======================================================= 
 incremental: true 
 left:50%  
@@ -320,14 +320,14 @@ left:50%
 
 ***
 
-- error occured at step one  
-
+- error occurred at step one  
+<br>
 - error was common, I did it too!  
-
+<br>
 - if step one did not occur, .up files would be missing header information  
-
-- before package error might go undedected for a year  
-
+<br>
+- before package error might go undetected for a year  
+<br>
 - at this point fixing error became complicated
 
 Handling the error message
@@ -347,11 +347,11 @@ font-size:8pt
     if(length(grep("@ ", full_table,ignore.case = TRUE)) == 0){
 
       no_head_files[[i]] <- paste("This file", temp[i],
-                                 "has no header info needs to be reprocesed.",
+                                 "has no header info needs to be reprocessed.",
                                  sep = " ")
 
       warning(paste("This file", temp[i],
-                    "has no header info, needs to be reprocesed.", sep = " "))
+                    "has no header info, needs to be reprocessed.", sep = " "))
 
       next()
 
@@ -429,11 +429,11 @@ incremental: true
 
 ***
 - Maps were requested after all the plot functions were added.  
-
-- There were limitations for choosing a mapping package  
-  + no to basic internet out at sea  
-  + using ggmap was out  
-
+<br>
+- There were limitations for choosing a mapping package
+  + no to basic internet out at sea
+  + using ggmap was out
+<br>
 - To move forward, I needed to bundle our map files within the package
   + the package was going to be large
   + and full of dependencies
@@ -509,7 +509,7 @@ incremental: true
 ***
 
 - Use S3 or S4 classes in R to format the output so that your users easily understands the output.
-- Your user may want loads of information from your package but it is not very usefull to print all at once.
+- Your user may want loads of information from your package but it is not very useful to print all at once.
 - Example glm. You actually get a lot of output but only selected information is shown when using print(fit) or summary(fit). This is what you use "object oriented" programming with S3 and S4 classes for.
 
 Formatting the output
