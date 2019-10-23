@@ -44,7 +44,11 @@ incremental: true
 
 ***
 - PhD in Biostatistics from Karolinska Institutet (KI). Currently working as a methods statistician at Statistics Sweden (SCB).
+<br>
+<br>
 - Interested in causal inference and data quality.
+<br>
+<br>
 - Author of the "AF" package for estimating the attributable fraction.
 
 Nissa Ferm 
@@ -76,9 +80,15 @@ left:60%
 ![plot of chunk unnamed-chunk-4](Package_presentation-figure/unnamed-chunk-4-1.gif)
 ***
 As of this year
-- 15007 on CRAN 
+- 15007 on CRAN
+<br>
+<br>
 - ~ 2116 on GitHub (includes dev versions of CRAN Packages)
+<br>
+<br>
 - 1741 on BioConductor
+<br>
+<br>
 - ~ 18864 + known packages!  🤯
 
 
@@ -93,10 +103,18 @@ left:40%
 
 
 ***
-- A 📦 can be just for you  
-- A 📦 can be specific to your use case  
-- 📦's are easily sharable 
-- 📦's are great for method development, easy documentation  
+- A 📦 can be just for you
+<br>
+<br>
+- A 📦 can be specific to your use case
+<br>
+<br>
+- 📦's are easily sharable
+<br>
+<br>
+- 📦's are great for method development, easy documentation
+<br>
+<br>
 - 📦's encapsulate a project, all files in one place!
 
 
@@ -110,6 +128,8 @@ left:50%
 ***
 
 - We recognized the need to implement (and develop) epidemiological methods in R in order to ease its use.
+<br>
+<br>
 - Made us think about how we could format our package to make it user-friendly. 
 
 
@@ -123,9 +143,15 @@ left:16%
 ![fastrcatdata](Package_presentation_files/fastrcatdata.png)
 
 ***
-- Data was trapped in a particular type of oceanographic file  
-- Thousands of these files were created each field season  
-- Past methods ment data wasn't available for more than a year   
+- Data was trapped in a particular type of oceanographic file
+<br>
+<br>
+- Thousands of these files were created each field season
+<br>
+<br>
+- Past methods ment data wasn't available for more than a year
+<br>
+<br>
 - I wanted to use the data while still out on the research cruise 🚢 📈!
 
 So, I built FastrCAT
@@ -170,14 +196,17 @@ left:40%
 ***
 - Google Style Guide
 https://google.github.io/styleguide/Rguide.html
-  
+<br>
+<br>
 - Tidyverse Style Guide
 https://style.tidyverse.org/
-
+<br>
+<br>
 - Biocondoctor Style Guide
 https://bioconductor.org/developers/how-to/coding-style/
-
-- Your job might also have its own guide too. 
+<br>
+<br>
+- Your job might also have its own guide too.
 
 What is human readable code?
 ========================================================
@@ -191,7 +220,8 @@ left:50%
 Wikipedia defines human readable as,  
   
 "A human-readable medium or human-readable format is a representation of data or information that can be naturally read by humans."  
-
+<br>
+<br>
 As humans we are great at telling stories, your code is a narrative
 
 
@@ -584,6 +614,14 @@ left:40%
 ***
 Find all the slides and code here
 https://github.com/R-Ladies-Stockholm/Package-Basics-Presentation
+
+Follow us on Twitter @RLadiesSthlm
+or Facebook @RLadiesStockholm 
+
+In the near future 5 minute favorite package talks and Package building workshop!
+
+
+
 
 And now for a quick package building demo. 
 
